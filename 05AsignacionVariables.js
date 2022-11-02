@@ -22,6 +22,10 @@ let nombreCompletoPasajero = nombrePasajero + " " + apellidoPasajero
     //palabra let
     let nombreCompletoPasajero2 = "pedro"
     console.log(nombreCompletoPasajero2); // lo imprime
+
+    var nombreVar = "lucas";
+    console.log(nombreVar); // lo imprime
 }
 
 console.log(nombreCompletoPasajero2); // no lo imprime porque està fuera de scope
+console.log(nombreVar); // lo imprime porque es agnostico al scope
