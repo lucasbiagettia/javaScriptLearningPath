@@ -23,3 +23,4 @@ paisesDisponibles[0]; // devuelve el 0
 
 // reemplaza
 paisesDisponibles.splice(1,1, "venezuela")
+
