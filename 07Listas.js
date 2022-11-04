@@ -11,6 +11,15 @@ console.log (ciudadesDisponibles);
 const paisesDisponibles = ["Colombia", "peru"];
 
 {
-    paisesDisponibles.push("uruguay");
-    
+    paisesDisponibles.push("uruguay"); // agrega al final
+    paisesDisponibles.unshift("Ecuador"); // Inserta al inicio
+
+
 }
+
+// clase 08
+
+paisesDisponibles[0]; // devuelve el 0
+
+// reemplaza
+paisesDisponibles.splice(1,1, "venezuela")
