@@ -25,3 +25,9 @@ if (valorPasaje === 1000){
 // AND = &&
 // OR  = ||
 // NOT    !
+const edadPasajero = 19;
+console.log("verificando");
+// no verifica es mayor
+if (edadPasajero == 19 || esMayor){
+    console.log("por que verifica asi");
+}
