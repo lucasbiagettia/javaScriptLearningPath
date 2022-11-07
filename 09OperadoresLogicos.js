@@ -19,3 +19,9 @@ if (valorPasaje === 1000){
 } else {
     console.log ("distinto dato");
 }
+
+
+//////////
+// AND = &&
+// OR  = ||
+// NOT    !
