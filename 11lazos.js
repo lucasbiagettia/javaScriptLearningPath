@@ -6,3 +6,4 @@ while (precioCiudad[i] < presupuestoDisponible){
     console.log("Puedes viajar a " + ciudadesDisponibles  [i]);
     i++;
 }
+
