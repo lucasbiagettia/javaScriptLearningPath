@@ -9,7 +9,7 @@ const datos =[
 },
 {
     'ciudad':'Lima',
-    'precio': 300
+    'precio': 301
 },
 {
     'ciudad':'Santiago',
@@ -21,9 +21,19 @@ const datos =[
 }
 ]
 
+// let i = 0;
+// while (i< datos.length && datos[i].precio > presupuestoDisponible ){
+//     console.log("Puedes viajar a " + datos[i].ciudad);
+//     i++;
+// }
+let ciudadSeleccionada = new String();
 let i = 0;
-while (datos[i].precio < presupuestoDisponible && i< datos.length){
-    console.log("Puedes viajar a " + datos[i].ciudad);
+do {
+    if (datos[i].precio > presupuestoDisponible ){
+        ciudadSeleccionada = datos[i].ciudad;
+    }
     i++;
 }
+while(i<datos.length && ciudadSeleccionada !='') 
 
+console.log(ciudadSeleccionada);
